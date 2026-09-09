@@ -7,7 +7,7 @@ LIBLINEAR -- A Library for Large Linear Classification
 - **Latest release**: `` (n/a)
 - **Last commit**: 2025-12-19
 - **License**: BSD-3-Clause
-- **Stars**: 1052 · **Forks**: 342 · **Open issues**: 60 · **Contributors**: 35
+- **Stars**: 1052 · **Forks**: 341 · **Open issues**: 60 · **Contributors**: 35
 
 ## Installation
 
@@ -21,4 +21,4 @@ See <https://x-cmd.com/install/liblinear> for details.
 
 This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260909.yml`. Merged card+release view: `data/latest.report.yml`.
 
-_Last regenerated: 2026-09-09T05:42:03Z._
+_Last regenerated: 2026-09-09T20:07:54Z._
