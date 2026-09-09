@@ -7,7 +7,7 @@ about:
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-09-09T05:42:00Z
+  collectedAt: 2026-09-09T20:07:45Z
 timeline:
   created: 2014-05-19
   lastCommit: 2025-12-19
@@ -17,7 +17,7 @@ timeline:
 popularity:
   star: 1052
   watcher: 68
-  fork: 342
+  fork: 341
   release: 0
   contributor: 35
   pullRequest: 35
@@ -87,7 +87,7 @@ total:
   commit: 351
 ---
 path: /home/runner/.x-repo/github.com/cjlin1/liblinear
-collectedAt: 2026-09-09T05:42:00Z
+collectedAt: 2026-09-09T20:07:48Z
 loc:
   Cpp:
     code: 3302
