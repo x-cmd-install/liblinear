@@ -4,7 +4,7 @@
 
 LIBLINEAR -- A Library for Large Linear Classification
 
-![liblinear](https://repo.x-cmd.io/liblinear.svg)
+[![x-cmd/install — liblinear Code Quality Monitoring Repo Card](https://repo.x-cmd.io/liblinear.svg)](https://x-cmd.com/install/liblinear)
 
 ## Install
 
@@ -24,16 +24,6 @@ Total: **7,034** lines of code across **28** files in the top 5 languages.
 | CHeader | 402 | 13 | 177 | 5 |
 | Makefile | 73 | 4 | 27 | 4 |
 
-## OpenSSF Scorecard
-
-Overall score: **2.8 / 10**
-
-Lowest-scoring checks:
-
-- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
-- **Maintained** (0/10) — 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
-- **SAST** (0/10) — no SAST tool detected
-
 ## Source
 
 - **Upstream**: <https://github.com/cjlin1/liblinear>
@@ -42,7 +32,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,052 · **Forks**: 341 · **Open issues**: 60 · **Contributors**: 35
+- **Stars**: 1,052 · **Forks**: 342 · **Open issues**: 60 · **Contributors**: 35
 
 ## Totals (cumulative)
 
@@ -52,12 +42,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-20 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-06-20 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-03-22 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-09-23 | 0 | 0 | 0 | 1 | 0 | 2 |
-| last720d | 2024-09-28 | 0 | 0 | 0 | 4 | 0 | 20 |
+| 30d | 2026-08-21 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-22 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-22 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-24 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-09-25 | 0 | 0 | 0 | 1 | 0 | 2 |
+| last720d | 2024-09-30 | 0 | 0 | 0 | 4 | 0 | 20 |
 
 ## Improve this data
 
@@ -68,4 +58,4 @@ Install metadata for liblinear lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T05:52:13Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T05:55:39Z._
