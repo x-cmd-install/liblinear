@@ -1,22 +1,3 @@
-- repo: parrot
-  subrepo: parrot/main
-  srcname: liblinear
-  binnames:
-    - liblinear-dev
-    - liblinear4
-    - liblinear-tools
-    - python3-liblinear
-  visiblename: liblinear
-  version: 2.3.0
-  origversion: 2.3.0+dfsg-5
-  status: outdated
-  maintainers:
-    - debian-science-maintainers@lists.alioth.debian.org
-    - ckk@debian.org
-    - ctse.tsai@gmail.com
-    - mwhudson@debian.org
-  categories:
-    - libs
 - repo: aur
   srcname: liblinear
   binname: liblinear
@@ -86,6 +67,25 @@
     - libs
 - repo: debian_12
   subrepo: bookworm/main
+  srcname: liblinear
+  binnames:
+    - liblinear-dev
+    - liblinear4
+    - liblinear-tools
+    - python3-liblinear
+  visiblename: liblinear
+  version: 2.3.0
+  origversion: 2.3.0+dfsg-5
+  status: outdated
+  maintainers:
+    - debian-science-maintainers@lists.alioth.debian.org
+    - ckk@debian.org
+    - ctse.tsai@gmail.com
+    - mwhudson@debian.org
+  categories:
+    - libs
+- repo: kali_rolling
+  subrepo: main
   srcname: liblinear
   binnames:
     - liblinear-dev
@@ -313,6 +313,17 @@
     - BSD
   categories:
     - Unspecified
+- repo: openpkg_current
+  srcname: liblinear
+  visiblename: liblinear
+  version: "2.43"
+  origversion: null
+  status: outdated
+  summary: Support Vector Machine (SVM) Library
+  licenses:
+    - BSD
+  categories:
+    - Algorithm
 - repo: fedora_40
   subrepo: release
   srcname: liblinear
@@ -369,18 +380,6 @@
     - LicenseRef-Callaway-BSD
   categories:
     - Unspecified
-- repo: pkgsrc_2026_2
-  srcname: math/liblinear
-  binname: liblinear
-  visiblename: math/liblinear
-  version: "2.50"
-  origversion: null
-  status: newest
-  summary: Library for large linear classification
-  maintainers:
-    - cheusov@netbsd.org
-  categories:
-    - math
 - repo: fedora_43
   subrepo: release
   srcname: liblinear
@@ -487,25 +486,6 @@
   origversion: null
   status: rolling
   summary: Library for large linear classification
-- repo: kali_rolling
-  subrepo: main
-  srcname: liblinear
-  binnames:
-    - liblinear-dev
-    - liblinear4
-    - liblinear-tools
-    - python3-liblinear
-  visiblename: liblinear
-  version: 2.3.0
-  origversion: 2.3.0+dfsg-5
-  status: outdated
-  maintainers:
-    - debian-science-maintainers@lists.alioth.debian.org
-    - ckk@debian.org
-    - ctse.tsai@gmail.com
-    - mwhudson@debian.org
-  categories:
-    - libs
 - repo: liguros_stable
   srcname: dev-libs/liblinear
   visiblename: dev-libs/liblinear
@@ -665,17 +645,6 @@
     - BSD
   categories:
     - System/Libraries
-- repo: openpkg_current
-  srcname: liblinear
-  visiblename: liblinear
-  version: "2.43"
-  origversion: null
-  status: outdated
-  summary: Support Vector Machine (SVM) Library
-  licenses:
-    - BSD
-  categories:
-    - Algorithm
 - repo: pardus_21
   subrepo: main
   srcname: liblinear
@@ -714,6 +683,37 @@
     - mwhudson@debian.org
   categories:
     - libs
+- repo: parrot
+  subrepo: parrot/main
+  srcname: liblinear
+  binnames:
+    - liblinear-dev
+    - liblinear4
+    - liblinear-tools
+    - python3-liblinear
+  visiblename: liblinear
+  version: 2.3.0
+  origversion: 2.3.0+dfsg-5
+  status: outdated
+  maintainers:
+    - debian-science-maintainers@lists.alioth.debian.org
+    - ckk@debian.org
+    - ctse.tsai@gmail.com
+    - mwhudson@debian.org
+  categories:
+    - libs
+- repo: pkgsrc_2026_2
+  srcname: math/liblinear
+  binname: liblinear
+  visiblename: math/liblinear
+  version: "2.50"
+  origversion: null
+  status: newest
+  summary: Library for large linear classification
+  maintainers:
+    - cheusov@netbsd.org
+  categories:
+    - math
 - repo: pkgsrc_2026_3
   srcname: math/liblinear
   binname: liblinear
@@ -1080,9 +1080,9 @@
     - liblinear6
     - liblinear-devel
   visiblename: liblinear
-  version: "2.49"
+  version: "2.50"
   origversion: null
-  status: outdated
+  status: newest
   summary: Library for Large Linear Classification
   categories:
     - Math
