@@ -1,27 +1,60 @@
+- repo: nix_stable_24_11
+  srcname: liblinear
+  visiblename: liblinear
+  version: "2.47"
+  origversion: null
+  status: outdated
+  summary: Library for large linear classification
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - BSD-3-Clause
+- repo: nix_stable_25_05
+  srcname: liblinear
+  visiblename: liblinear
+  version: "2.47"
+  origversion: null
+  status: outdated
+  summary: Library for large linear classification
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - BSD-3-Clause
+- repo: nix_stable_25_11
+  srcname: liblinear
+  visiblename: liblinear
+  version: "2.47"
+  origversion: null
+  status: outdated
+  summary: Library for large linear classification
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - BSD-3-Clause
 - repo: aur
   srcname: liblinear
   binname: liblinear
   visiblename: liblinear
   version: "2.50"
-  origversion: 2.50-1
+  origversion: 2.50-2
   status: newest
   summary: A Library for Large Linear Classification
   maintainers:
     - agony4001@aur
   licenses:
-    - BSD
+    - BSD-3-Clause
 - repo: aur
   srcname: liblinear
   binname: python-liblinear
   visiblename: python-liblinear
   version: "2.50"
-  origversion: 2.50-1
+  origversion: 2.50-2
   status: newest
   summary: Python bindings for liblinear
   maintainers:
     - agony4001@aur
   licenses:
-    - BSD
+    - BSD-3-Clause
 - repo: aur
   srcname: liblinear-git
   binname: liblinear-git
@@ -67,25 +100,6 @@
     - libs
 - repo: debian_12
   subrepo: bookworm/main
-  srcname: liblinear
-  binnames:
-    - liblinear-dev
-    - liblinear4
-    - liblinear-tools
-    - python3-liblinear
-  visiblename: liblinear
-  version: 2.3.0
-  origversion: 2.3.0+dfsg-5
-  status: outdated
-  maintainers:
-    - debian-science-maintainers@lists.alioth.debian.org
-    - ckk@debian.org
-    - ctse.tsai@gmail.com
-    - mwhudson@debian.org
-  categories:
-    - libs
-- repo: kali_rolling
-  subrepo: main
   srcname: liblinear
   binnames:
     - liblinear-dev
@@ -313,17 +327,6 @@
     - BSD
   categories:
     - Unspecified
-- repo: openpkg_current
-  srcname: liblinear
-  visiblename: liblinear
-  version: "2.43"
-  origversion: null
-  status: outdated
-  summary: Support Vector Machine (SVM) Library
-  licenses:
-    - BSD
-  categories:
-    - Algorithm
 - repo: fedora_40
   subrepo: release
   srcname: liblinear
@@ -486,6 +489,25 @@
   origversion: null
   status: rolling
   summary: Library for large linear classification
+- repo: kali_rolling
+  subrepo: main
+  srcname: liblinear
+  binnames:
+    - liblinear-dev
+    - liblinear4
+    - liblinear-tools
+    - python3-liblinear
+  visiblename: liblinear
+  version: 2.3.0
+  origversion: 2.3.0+dfsg-5
+  status: outdated
+  maintainers:
+    - debian-science-maintainers@lists.alioth.debian.org
+    - ckk@debian.org
+    - ctse.tsai@gmail.com
+    - mwhudson@debian.org
+  categories:
+    - libs
 - repo: liguros_stable
   srcname: dev-libs/liblinear
   visiblename: dev-libs/liblinear
@@ -563,39 +585,6 @@
     - fallback-mnt-nix@repology
   licenses:
     - BSD-3-Clause
-- repo: nix_stable_24_11
-  srcname: liblinear
-  visiblename: liblinear
-  version: "2.47"
-  origversion: null
-  status: outdated
-  summary: Library for large linear classification
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - BSD-3-Clause
-- repo: nix_stable_25_05
-  srcname: liblinear
-  visiblename: liblinear
-  version: "2.47"
-  origversion: null
-  status: outdated
-  summary: Library for large linear classification
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - BSD-3-Clause
-- repo: nix_stable_25_11
-  srcname: liblinear
-  visiblename: liblinear
-  version: "2.47"
-  origversion: null
-  status: outdated
-  summary: Library for large linear classification
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - BSD-3-Clause
 - repo: nix_stable_26_05
   srcname: liblinear
   visiblename: liblinear
@@ -645,6 +634,17 @@
     - BSD
   categories:
     - System/Libraries
+- repo: openpkg_current
+  srcname: liblinear
+  visiblename: liblinear
+  version: "2.43"
+  origversion: null
+  status: outdated
+  summary: Support Vector Machine (SVM) Library
+  licenses:
+    - BSD
+  categories:
+    - Algorithm
 - repo: pardus_21
   subrepo: main
   srcname: liblinear
