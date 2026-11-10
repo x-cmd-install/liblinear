@@ -122,6 +122,25 @@
     - mwhudson@debian.org
   categories:
     - libs
+- repo: parrot
+  subrepo: parrot/main
+  srcname: liblinear
+  binnames:
+    - liblinear-dev
+    - liblinear4
+    - liblinear-tools
+    - python3-liblinear
+  visiblename: liblinear
+  version: 2.3.0
+  origversion: 2.3.0+dfsg-5
+  status: outdated
+  maintainers:
+    - debian-science-maintainers@lists.alioth.debian.org
+    - ckk@debian.org
+    - ctse.tsai@gmail.com
+    - mwhudson@debian.org
+  categories:
+    - libs
 - repo: debian_unstable
   subrepo: sid/main
   srcname: liblinear
@@ -332,6 +351,25 @@
     - BSD
   categories:
     - Unspecified
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: liblinear
+  binnames:
+    - liblinear-dev
+    - liblinear4
+    - liblinear-tools
+    - python3-liblinear
+  visiblename: liblinear
+  version: 2.3.0
+  origversion: 2.3.0+dfsg-5
+  status: outdated
+  maintainers:
+    - debian-science-maintainers@lists.alioth.debian.org
+    - ckk@debian.org
+    - ctse.tsai@gmail.com
+    - mwhudson@debian.org
+  categories:
+    - libs
 - repo: fedora_42
   subrepo: release
   srcname: liblinear
@@ -623,9 +661,10 @@
     - liblinear
     - liblinear-devel
     - liblinear-tools
+    - python-liblinear
   visiblename: liblinear
   version: "2.50"
-  origversion: 2.50-1mamba
+  origversion: 2.50-2mamba
   status: newest
   summary: A library for solving large-scale regularized linear classification and regression
   maintainers:
@@ -636,44 +675,6 @@
     - System/Libraries
 - repo: pardus_21
   subrepo: main
-  srcname: liblinear
-  binnames:
-    - liblinear-dev
-    - liblinear4
-    - liblinear-tools
-    - python3-liblinear
-  visiblename: liblinear
-  version: 2.3.0
-  origversion: 2.3.0+dfsg-5
-  status: outdated
-  maintainers:
-    - debian-science-maintainers@lists.alioth.debian.org
-    - ckk@debian.org
-    - ctse.tsai@gmail.com
-    - mwhudson@debian.org
-  categories:
-    - libs
-- repo: parrot
-  subrepo: parrot/main
-  srcname: liblinear
-  binnames:
-    - liblinear-dev
-    - liblinear4
-    - liblinear-tools
-    - python3-liblinear
-  visiblename: liblinear
-  version: 2.3.0
-  origversion: 2.3.0+dfsg-5
-  status: outdated
-  maintainers:
-    - debian-science-maintainers@lists.alioth.debian.org
-    - ckk@debian.org
-    - ctse.tsai@gmail.com
-    - mwhudson@debian.org
-  categories:
-    - libs
-- repo: parrot
-  subrepo: parrot-updates/main
   srcname: liblinear
   binnames:
     - liblinear-dev
