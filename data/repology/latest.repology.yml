@@ -1,3 +1,14 @@
+- repo: nix_stable_25_05
+  srcname: liblinear
+  visiblename: liblinear
+  version: "2.47"
+  origversion: null
+  status: outdated
+  summary: Library for large linear classification
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - BSD-3-Clause
 - repo: aur
   srcname: liblinear
   binname: liblinear
@@ -105,25 +116,6 @@
     - libs
 - repo: debian_14
   subrepo: forky/main
-  srcname: liblinear
-  binnames:
-    - liblinear-dev
-    - liblinear4
-    - liblinear-tools
-    - python3-liblinear
-  visiblename: liblinear
-  version: 2.3.0
-  origversion: 2.3.0+dfsg-5
-  status: outdated
-  maintainers:
-    - debian-science-maintainers@lists.alioth.debian.org
-    - ckk@debian.org
-    - ctse.tsai@gmail.com
-    - mwhudson@debian.org
-  categories:
-    - libs
-- repo: parrot
-  subrepo: parrot/main
   srcname: liblinear
   binnames:
     - liblinear-dev
@@ -271,17 +263,6 @@
     - mwhudson@debian.org
   categories:
     - libs
-- repo: epel_6
-  srcname: liblinear
-  visiblename: liblinear
-  version: "1.94"
-  origversion: 1.94-1.el6
-  status: outdated
-  summary: Library for Large Linear Classification
-  licenses:
-    - BSD
-  categories:
-    - Unspecified
 - repo: epel_7
   srcname: liblinear
   visiblename: liblinear
@@ -351,25 +332,6 @@
     - BSD
   categories:
     - Unspecified
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: liblinear
-  binnames:
-    - liblinear-dev
-    - liblinear4
-    - liblinear-tools
-    - python3-liblinear
-  visiblename: liblinear
-  version: 2.3.0
-  origversion: 2.3.0+dfsg-5
-  status: outdated
-  maintainers:
-    - debian-science-maintainers@lists.alioth.debian.org
-    - ckk@debian.org
-    - ctse.tsai@gmail.com
-    - mwhudson@debian.org
-  categories:
-    - libs
 - repo: fedora_42
   subrepo: release
   srcname: liblinear
@@ -601,17 +563,6 @@
     - fallback-mnt-nix@repology
   licenses:
     - BSD-3-Clause
-- repo: nix_stable_25_05
-  srcname: liblinear
-  visiblename: liblinear
-  version: "2.47"
-  origversion: null
-  status: outdated
-  summary: Library for large linear classification
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - BSD-3-Clause
 - repo: nix_stable_25_11
   srcname: liblinear
   visiblename: liblinear
@@ -675,6 +626,44 @@
     - System/Libraries
 - repo: pardus_21
   subrepo: main
+  srcname: liblinear
+  binnames:
+    - liblinear-dev
+    - liblinear4
+    - liblinear-tools
+    - python3-liblinear
+  visiblename: liblinear
+  version: 2.3.0
+  origversion: 2.3.0+dfsg-5
+  status: outdated
+  maintainers:
+    - debian-science-maintainers@lists.alioth.debian.org
+    - ckk@debian.org
+    - ctse.tsai@gmail.com
+    - mwhudson@debian.org
+  categories:
+    - libs
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: liblinear
+  binnames:
+    - liblinear-dev
+    - liblinear4
+    - liblinear-tools
+    - python3-liblinear
+  visiblename: liblinear
+  version: 2.3.0
+  origversion: 2.3.0+dfsg-5
+  status: outdated
+  maintainers:
+    - debian-science-maintainers@lists.alioth.debian.org
+    - ckk@debian.org
+    - ctse.tsai@gmail.com
+    - mwhudson@debian.org
+  categories:
+    - libs
+- repo: parrot
+  subrepo: parrot/main
   srcname: liblinear
   binnames:
     - liblinear-dev
