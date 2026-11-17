@@ -1,4 +1,4 @@
-- repo: nix_stable_25_05
+- repo: nix_stable_25_11
   srcname: liblinear
   visiblename: liblinear
   version: "2.47"
@@ -9,6 +9,24 @@
     - fallback-mnt-nix@repology
   licenses:
     - BSD-3-Clause
+- repo: pld
+  srcname: liblinear
+  visiblename: liblinear
+  version: "2.50"
+  origversion: 2.50-1
+  status: newest
+- repo: aur
+  srcname: liblinear-git
+  binname: liblinear-git
+  visiblename: liblinear-git
+  version: "2.43"
+  origversion: 2.43-1
+  status: rolling
+  summary: A Library for Large Linear Classification
+  maintainers:
+    - m3thodic@aur
+  licenses:
+    - BSD
 - repo: aur
   srcname: liblinear
   binname: liblinear
@@ -33,18 +51,6 @@
     - agony4001@aur
   licenses:
     - BSD-3-Clause
-- repo: aur
-  srcname: liblinear-git
-  binname: liblinear-git
-  visiblename: liblinear-git
-  version: "2.43"
-  origversion: 2.43-1
-  status: rolling
-  summary: A Library for Large Linear Classification
-  maintainers:
-    - m3thodic@aur
-  licenses:
-    - BSD
 - repo: aur
   srcname: liblinear-git
   binname: python-liblinear-git
@@ -386,6 +392,24 @@
     - LicenseRef-Callaway-BSD
   categories:
     - Unspecified
+- repo: fedora_45
+  subrepo: release
+  srcname: liblinear
+  binnames:
+    - liblinear
+    - liblinear-cli
+    - liblinear-devel
+    - liblinear-doc
+    - python3-liblinear
+  visiblename: liblinear
+  version: "1.94"
+  origversion: 1.94-49.fc45
+  status: outdated
+  summary: Library for Large Linear Classification
+  licenses:
+    - LicenseRef-Callaway-BSD
+  categories:
+    - Unspecified
 - repo: fedora_rawhide
   subrepo: development
   srcname: liblinear
@@ -416,6 +440,17 @@
     - sunpoet@freebsd.org
   categories:
     - science
+- repo: nix_stable_25_05
+  srcname: liblinear
+  visiblename: liblinear
+  version: "2.47"
+  origversion: null
+  status: outdated
+  summary: Library for large linear classification
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - BSD-3-Clause
 - repo: gentoo
   srcname: dev-libs/liblinear
   visiblename: dev-libs/liblinear
@@ -563,17 +598,6 @@
     - fallback-mnt-nix@repology
   licenses:
     - BSD-3-Clause
-- repo: nix_stable_25_11
-  srcname: liblinear
-  visiblename: liblinear
-  version: "2.47"
-  origversion: null
-  status: outdated
-  summary: Library for large linear classification
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - BSD-3-Clause
 - repo: nix_stable_26_05
   srcname: liblinear
   visiblename: liblinear
@@ -644,7 +668,7 @@
   categories:
     - libs
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: liblinear
   binnames:
     - liblinear-dev
@@ -663,7 +687,7 @@
   categories:
     - libs
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: liblinear
   binnames:
     - liblinear-dev
@@ -717,12 +741,6 @@
     - cheusov@netbsd.org
   categories:
     - math
-- repo: pld
-  srcname: liblinear
-  visiblename: liblinear
-  version: "2.50"
-  origversion: 2.50-1
-  status: newest
 - repo: pureos_amber
   subrepo: amber/main
   srcname: liblinear
