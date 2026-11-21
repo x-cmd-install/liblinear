@@ -1,28 +1,22 @@
-- repo: stalix
-  srcname: lib/linear
-  binname: lib/linear
-  visiblename: lib/linear
-  version: "2.50"
-  origversion: null
-  status: newest
+- repo: raspbian_stable
+  subrepo: main
+  srcname: liblinear
+  binnames:
+    - liblinear-dev
+    - liblinear4
+    - liblinear-tools
+    - python3-liblinear
+  visiblename: liblinear
+  version: 2.3.0
+  origversion: 2.3.0+dfsg-5
+  status: outdated
   maintainers:
-    - anton@samokhvalov.xyz
+    - debian-science-maintainers@lists.alioth.debian.org
+    - ckk@debian.org
+    - ctse.tsai@gmail.com
+    - mwhudson@debian.org
   categories:
-    - lib
-- repo: homebrew
-  srcname: liblinear
-  visiblename: liblinear
-  version: "2.50"
-  origversion: null
-  status: newest
-  summary: Library for large linear classification
-- repo: homebrew
-  srcname: liblinear
-  visiblename: liblinear
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Library for large linear classification
+    - libs
 - repo: aur
   srcname: liblinear
   binname: liblinear
@@ -71,8 +65,8 @@
     - m3thodic@aur
   licenses:
     - BSD
-- repo: debian_11
-  subrepo: bullseye/main
+- repo: raspbian_testing
+  subrepo: main
   srcname: liblinear
   binnames:
     - liblinear-dev
@@ -90,8 +84,8 @@
     - mwhudson@debian.org
   categories:
     - libs
-- repo: kali_rolling
-  subrepo: main
+- repo: debian_11
+  subrepo: bullseye/main
   srcname: liblinear
   binnames:
     - liblinear-dev
@@ -204,22 +198,6 @@
     - mwhudson@debian.org
   categories:
     - libs
-- repo: deepin_unstable
-  subrepo: main
-  srcname: liblinear
-  binnames:
-    - liblinear-dev
-    - liblinear3
-    - liblinear-tools
-    - python-liblinear
-    - python3-liblinear
-  visiblename: liblinear
-  version: 2.1.0
-  origversion: 2.1.0+dfsg-4
-  status: outdated
-  maintainers:
-    - ckk@debian.org
-    - ctse.tsai@gmail.com
 - repo: deepin_23
   subrepo: main
   srcname: liblinear
@@ -258,17 +236,6 @@
     - mwhudson@debian.org
   categories:
     - libs
-- repo: stalix_dev
-  srcname: lib/linear
-  binname: lib/linear
-  visiblename: lib/linear
-  version: "2.50"
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - lib
 - repo: devuan_4_0
   subrepo: chimaera/main
   srcname: liblinear
@@ -318,6 +285,17 @@
     - BSD
   categories:
     - Unspecified
+- repo: stalix
+  srcname: lib/linear
+  binname: lib/linear
+  visiblename: lib/linear
+  version: "2.50"
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - lib
 - repo: fedora_39
   subrepo: release
   srcname: liblinear
@@ -504,6 +482,39 @@
     - BSD
   categories:
     - dev-libs
+- repo: homebrew
+  srcname: liblinear
+  visiblename: liblinear
+  version: "2.50"
+  origversion: null
+  status: newest
+  summary: Library for large linear classification
+- repo: homebrew
+  srcname: liblinear
+  visiblename: liblinear
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Library for large linear classification
+- repo: kali_rolling
+  subrepo: main
+  srcname: liblinear
+  binnames:
+    - liblinear-dev
+    - liblinear4
+    - liblinear-tools
+    - python3-liblinear
+  visiblename: liblinear
+  version: 2.3.0
+  origversion: 2.3.0+dfsg-5
+  status: outdated
+  maintainers:
+    - debian-science-maintainers@lists.alioth.debian.org
+    - ckk@debian.org
+    - ctse.tsai@gmail.com
+    - mwhudson@debian.org
+  categories:
+    - libs
 - repo: liguros_stable
   srcname: dev-libs/liblinear
   visiblename: dev-libs/liblinear
@@ -838,44 +849,17 @@
     - mwhudson@debian.org
   categories:
     - libs
-- repo: raspbian_stable
-  subrepo: main
-  srcname: liblinear
-  binnames:
-    - liblinear-dev
-    - liblinear4
-    - liblinear-tools
-    - python3-liblinear
-  visiblename: liblinear
-  version: 2.3.0
-  origversion: 2.3.0+dfsg-5
-  status: outdated
+- repo: stalix_dev
+  srcname: lib/linear
+  binname: lib/linear
+  visiblename: lib/linear
+  version: "2.50"
+  origversion: null
+  status: newest
   maintainers:
-    - debian-science-maintainers@lists.alioth.debian.org
-    - ckk@debian.org
-    - ctse.tsai@gmail.com
-    - mwhudson@debian.org
+    - anton@samokhvalov.xyz
   categories:
-    - libs
-- repo: raspbian_testing
-  subrepo: main
-  srcname: liblinear
-  binnames:
-    - liblinear-dev
-    - liblinear4
-    - liblinear-tools
-    - python3-liblinear
-  visiblename: liblinear
-  version: 2.3.0
-  origversion: 2.3.0+dfsg-5
-  status: outdated
-  maintainers:
-    - debian-science-maintainers@lists.alioth.debian.org
-    - ckk@debian.org
-    - ctse.tsai@gmail.com
-    - mwhudson@debian.org
-  categories:
-    - libs
+    - lib
 - repo: ubuntu_14_04
   subrepo: trusty/main
   srcname: liblinear
